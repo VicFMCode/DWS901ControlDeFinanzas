@@ -1,0 +1,11 @@
+# Ignorar archivos y directorios de IntelliJ/JetBrains
+.idea/
+*.iml
+
+# Ignorar directorios de subida de archivos (Facturas)
+# Estos archivos son generados por el usuario y son demasiado grandes para Git.
+/public/uploads/*
+!/public/uploads/.gitkeep # Opcional: crea un archivo vacío llamado .gitkeep en /public/uploads/ para que git rastree la carpeta.
+
+# Archivos de configuración de servidor
+.htaccess
